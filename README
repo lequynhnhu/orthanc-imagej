@@ -21,11 +21,11 @@ Licensing
 
 Orthanc and this plugin are licensed under the GPLv3 license.
 
-We also kindly ask scientific works and clinical studies that make
-use of Orthanc to cite Orthanc in their associated publications.
-Similarly, we ask open-source and closed-source products that make
-use of Orthanc to warn us about this use. You can cite our work
-using the following BibTeX entry:
+We also kindly ask scientific works and clinical studies that make use
+of this plugin or of Orthanc, to cite Orthanc in their associated
+publications. Similarly, we ask open-source and closed-source products
+that make use of Orthanc to warn us about this use. You can cite our
+work using the following BibTeX entry:
 
 @inproceedings{Jodogne:ISBI2013,
   author = {Jodogne, S. and Bernard, C. and Devillers, M. and Lenaerts, E. and Coucke, P.},
