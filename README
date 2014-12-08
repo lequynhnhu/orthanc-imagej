@@ -1,0 +1,57 @@
+Orthanc - A Lightweight, RESTful DICOM Server
+=============================================
+
+
+General Information
+-------------------
+
+This repository contains an ImageJ plugin that allows to easily access
+DICOM images that are stored in some Orthanc server. This plugin might
+be useful to medical physicists for QA tasks, as well as for
+pedagogical purpose.
+
+Demonstration: http://youtu.be/wsslVhE-R1Q
+
+The instructions for building/installing the plugin can be found in
+the "INSTALL" file.
+
+
+Licensing
+---------
+
+Orthanc and this plugin are licensed under the GPLv3 license.
+
+We also kindly ask scientific works and clinical studies that make
+use of Orthanc to cite Orthanc in their associated publications.
+Similarly, we ask open-source and closed-source products that make
+use of Orthanc to warn us about this use. You can cite our work
+using the following BibTeX entry:
+
+@inproceedings{Jodogne:ISBI2013,
+  author = {Jodogne, S. and Bernard, C. and Devillers, M. and Lenaerts, E. and Coucke, P.},
+  title = {Orthanc -- {A} Lightweight, {REST}ful {DICOM} Server for Healthcare and Medical Research},
+  booktitle={Biomedical Imaging ({ISBI}), {IEEE} 10th International Symposium on}, 
+  year={2013}, 
+  pages={190-193}, 
+  ISSN={1945-7928},
+  month=apr,
+  url={http://ieeexplore.ieee.org/xpl/articleDetails.jsp?tp=&arnumber=6556444},
+  address={San Francisco, {CA}, {USA}}
+}
+
+
+Disclaimer
+----------
+
+This program is distributed in the hope that it will be useful, but
+WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+
+Dependencies
+------------
+
+This plugin depends upon the "json-simple" toolkit
+(http://code.google.com/p/json-simple/), that is released under the
+Apache License 2.0. The source of this dependency is located in the
+"org/" folder.
