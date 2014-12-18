@@ -183,7 +183,7 @@ public class DicomDecoder
       stack = new ImageStack(slice.getWidth(), slice.getHeight());
     }
 
-    stack.addSlice(slice);
+    stack.addSlice("", slice);
     return stack;
   }
 
